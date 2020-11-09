@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="signup.css" />
+  <link href="https://fonts.googleapis.com/css?family=Merienda:400,700&display=swap" rel="stylesheet" />
+    <title>PlanEat SignUp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="Scripts/signup.js"></script>
+</head>
+
+<body>
+    <script type="text/JavaScript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+      <nav class="navbar navbar-expand-md">
+  <a class="navbar-brand brand" href="#"><img src="Assets/Logo.png">PlanEat</a>
+  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  <form class="register" id="regForm">
+    <h1>Sign Up</h1>
+    <input type="text" class="in" placeholder="Name" id="name" required>
+    <input type="email" class="in" placeholder="Email-Id" id="email" required>
+    <input type="password" class="in" placeholder="Enter new password" id="pswd">
+    <input type="password" class="in" placeholder="Confirm password" id="cpswd">
+    <button class="submit" onclick="submitDetails()">Submit</button>
+    <a href="index.html" class="ghost">Cancel</a>
+    <p class="mem">
+      Already a member? <a href="signin.html" class="s"> Sign In </a>
+    </p>
+  </form>
+</body>
+
+</html>
+

@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: cursive;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Assets/signin.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navbar {
+  background:rgba(0, 0, 0, 0.9);
+    height: 10%;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+}
+
+.navbar-brand:hover{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #F4933A;
+    text-align: center;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.brand{
+    font-size: 28px;
+    margin-left: 0;
+}
+
+.login{
+    background-color: transparent;
+    width: 90px;
+    border-radius: 25px;
+    border: #F4933A 2px solid ;
+    text-align: center;
+    
+}
+
+.login:hover{
+    background-color: #F4933A;
+    width: 90px;
+    border-radius: 25px;
+    border: #F4933A 2px solid ;
+    color: white;
+    
+}
+
+.sign {
+  height: 500px;
+  width: 500px;
+  margin: 2% 2% 10% 59%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+}
+
+h1 {
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-size: 58px;
+  color:  #F4933A;
+}
+
+.in {
+  height: 9%;
+  width: 85%;
+  margin: 4% 8%;
+  padding: 2%;
+  font-size: 20px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  color: whitesmoke;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 9%;
+  font-size: 15;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  height: 10%;
+  width: 35%;
+  margin: 5% 32% 6%;
+  border-radius: 30px;
+  border: 2px solid  #F4933A;
+  color: white;
+  font-size: 18px;
+  background-color:  #F4933A;
+}
+
+.btn:hover {
+  opacity: 1;
+font-size: 20px;
+  background-color:  #F4933A;
+  border: 2px solid  #F4933A;
+  color: #ffffff;
+}
+
+.fp:hover{
+    text-decoration: none;
+    color: #F4933A;
+}
+
+p {
+  color: white;
+  margin: 2% 8%;
+}
+
+#reg {
+  margin: 2%;
+    color: #F4933A;
+}
+
+#reg:hover{
+    text-decoration: none;
+    color: white;
+    
+}

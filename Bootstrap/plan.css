@@ -1,0 +1,117 @@
+body {
+  padding: 0;
+  margin: 0;
+    background-color: white;
+    font-family: cursive;
+}
+
+/*--- navigation bar ---*/
+
+.navbar {
+  background:rgba(0, 0, 0, 0.9);
+  z-index: 1;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+}
+
+.navbar-brand:hover{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #F4933A;
+    text-align: center;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.brand{
+    font-size: 28px;
+}
+
+.login{
+    background-color: transparent;
+    width: 90px;
+    border-radius: 25px;
+    border: #F4933A 2px solid ;
+    text-align: center;
+    
+}
+
+.login:hover{
+    background-color: #F4933A;
+    width: 90px;
+    border-radius: 25px;
+    border: #F4933A 2px solid ;
+    color: white;
+    
+}
+
+
+
+.header {
+    height: 100vh;
+  background-image: url('Assets/rachael-gorjestani-evsoUV1EyXY-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+    margin: 0;
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 15%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  color: #F4933A;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.description p {
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+
+
+.plan{
+      left: 50%;
+  position: relative;;
+  top: 52%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+    width: 70%;
+    height 100%;
+    background-color: rgb(237, 237, 237);
+    border-radius: 5px;
+      box-shadow: 2px 1px 5px 0 rgba(255, 255, 255, 0.2), 2px 1px 5px 0 rgba(255, 255, 255, 0.2); }
+}
