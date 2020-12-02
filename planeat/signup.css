@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+    font-family: cursive;
+}
+
+html, body {
+  font-family: cursive;
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Assets/signup2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background:rgba(0, 0, 0, 0.9);
+  z-index: 1;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+}
+
+.navbar-brand:hover{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #F4933A;
+    text-align: center;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.brand{
+    font-size: 28px;
+}
+
+.login{
+    background-color: transparent;
+    width: 90px;
+    border-radius: 25px;
+    border: #F4933A 2px solid ;
+    text-align: center;
+    
+}
+
+.login:hover{
+    background-color: #F4933A;
+    width: 90px;
+    border-radius: 25px;
+    border: #F4933A 2px solid ;
+    color: white;
+    
+}
+
+
+.register {
+  height: 75%;
+  width: 32%;
+  background: white;
+  opacity: 0.7;
+  border-radius: 50px;
+  margin: 4% 7%;
+  padding: 2%;
+  text-align: center;
+}
+
+.register h1 {
+  font-size: 40px;
+  color: #F4933A;
+  margin: 3%;
+  font-weight: 700;
+    font-size: 37px;
+}
+
+.in {
+  height: 35px;
+  width: 75%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid#F4933A;
+  margin: 3.5% 1%;
+  font-size: 25px;
+  padding: 1%;
+  text-align: center;
+}
+
+::placeholder {
+  font-family: cursive;
+  color: #575656;
+  opacity: 0.5;
+    font-size: 20px;
+}
+
+.submit {
+  font-family: cursive;
+  height: 8%;
+  width: 40%;
+  margin: 3% 1% 1%;
+  font-size: 18px;
+  color: white;
+  background: #F4933A;
+  border: 1px solid #F4933A;
+  border-radius: 20px;
+  font-weight: 400;
+}
+
+.submit:hover, input[type = submit] {
+  opacity: 1;
+  font-size: 20px;
+    cursor: pointer;
+
+}
+
+.ghost{
+    
+    font-family:cursive;
+    display: inline-block;
+    border: 2px solid #F4933A;
+    width: 40%;
+    font-size: 18px;
+    border-radius: 22px;
+    color: #F4933A;
+    text-decoration: none;
+}
+
+.ghost:hover{
+    
+    text-decoration: none;
+    color: white;
+    background: #F4933A;
+}
+
+.mem {
+  margin: 3%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.s{
+         color: #F4933A;
+}
+.s:hover {
+  text-decoration: none;
+    color:black; 
+}
