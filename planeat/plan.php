@@ -38,9 +38,26 @@ else if($gender == "female"){
 }
 }
 
+$bcal = 0.2 * $cal;
+$lcal = 0.4 * $cal;
+$dcal = 0.4 * $cal;
+$scal = 0.2 * $cal;
 
+$b1n = "";
+$b1c = 0;
+$b1 = mysqli_query($connect, "SELECT Name, Calories FROM bf_bev ORDER BY RAND() LIMIT 1");
+while($row = mysqli_fetch_array($b1)){
+    $b1n = $row['Name'];
+    $b1c = $row['Calories'];
+}
 
-
+$b2n = "";
+$b2c = $bcal - $b1c;
+$b2 = mysqli_query($connect, "SELECT Name,Calories FROM bf_bev WHERE Calories < '$b2c'");
+while($row = mysqli_fetch_array($b1)){
+    $b2n = $row['Name'];
+    $b2c = $row['Calories'];
+}
 ?>
 
 
@@ -108,15 +125,15 @@ else if($gender == "female"){
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td><?php echo $age ?></td>
-      <td><?php echo $cal ?></td>
+      <td><?php echo $b1n ?></td>
+      <td><?php echo $b1c ?></td>
       
         <td> <button> Replace </button></td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
+      <td><?php echo $b2n ?></td>
+      <td><?php echo $b2c ?></td>
     
         <td> <button> Replace </button></td>
     </tr>
