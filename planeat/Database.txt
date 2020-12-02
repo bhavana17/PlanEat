@@ -1,0 +1,94 @@
+Breakfast Beverages
+bf_bev
+ 1 | Milk without sugar (1 cup)            | V    |       60 |
+ 2 | Milk with Sugar (1 cup)               | V    |       75 |
+ 3 | Fresh Fruit Juice (1 cup)             | V    |      120 |
+ 4 | Coffee with milk and sugar (1 cup)    | V    |       45 |
+ 5 | Coffee/Black without sugar (1 cup)    | V    |       10 |
+ 6 | Tea with milk and sugar (1 cup)       | V    |       45 |
+ 7 | Tea/Black/Green without sugar (1 cup) | V    |       10
+
+Breakfast Dishes
+bf_dish
++--------+------------------------------+------+----------+
+| ItemNo | Name                         | Type | Calories |
++--------+------------------------------+------+----------+
+|      1 | Egg boiled (1)               | NV   |       80 |
+|      2 | Egg boiled (2)               | NV   |      160 |
+|      3 | Egg omellete (1)             | NV   |      120 |
+|      4 | Egg omellete (2)             | NV   |      240 |
+|      5 | Bread slice with butter (1)  | V    |       90 |
+|      6 | Bread slice with butter (2)  | V    |      180 |
+|      7 | Dosa Plain (1) with Sambhar  | V    |      270 |
+|      8 | Dosa Plain (2) with Sambhar  | V    |      540 |
+|      9 | Dosa Masala (1) with Sambhar | V    |      400 |
+|     10 | Dosa Masala (2) with Sambhar | V    |      750 |
+|     11 | Idli (2) with Sambhar        | V    |      350 |
+|     12 | Idli (3) with Sambhar        | V    |      450 |
+|     13 | Puri (2) with Subji          | V    |      300 |
+|     14 | Puri (3) with Subji          | V    |      375 |
+|     15 | Paratha (1)                  | V    |      150 |
+|     16 | Paratha (2)                  | V    |      300 |
+|     17 | Apple (1 medium)             | V    |       60 |
+|     18 | Banana (1 medium)            | V    |      139 |
+|     19 | Orange (1 medium)            | V    |       72 |
+|     20 | Pomegranate (1 small)        | V    |       65 |
+|     21 | Papaya (100g)                | V    |       32 |
+
+Roti/Rice
+rotirice
++--------+------------------------------+------+----------+
+| ItemNo | Name                         | Type | Calories |
++--------+------------------------------+------+----------+
+|      1 | Phulka(2)                    | V    |      120 |
+|      2 | Phulka(3)                    | V    |      180 |
+|      3 | Phulka(4)                    | V    |      240 |
+|      4 | Plain rice cooked (1 cup)    | V    |      120 |
+|      5 | Plain rice cooked (1.5 cup)  | V    |      180 |
+|      6 | Plain rice cooked (2 cups)   | V    |      240 |
+|      7 | Plain rice cooked (2.5 cups) | V    |      300 |
+|      8 | Khichdi (100g)               | V    |      215 |
+
+Curries
+curries 
+| ItemNo | Name                         | Type | Calories |
++--------+------------------------------+------+----------+
+|      1 | Aloo Brinjal Mix Veg (100g)  | V    |      103 |
+|      2 | Bhindi (Okra) (100g)         | V    |      161 |
+|      3 | Chole (Chickpeas) (100g)     | V    |       74 |
+|      4 | Mutter Paneer (100g)         | V    |      147 |
+|      5 | Rajma (Kidney Beans) (100g)  | V    |      102 |
+|      6 | Torai (Ridge Gourd) (100g)   | V    |       65 |
+|      7 | Baigan ka Bharta (100g)      | V    |       70 |
+|      8 | Cabbage (100g)               | V    |      131 |
+|      9 | Fish Curry (1 bowl)          | NV   |      325 |
+|     10 | Chicken Curry (1 bowl)       | NV   |      485 |
+|     11 | Mutton Do Pyaaza (1 serving) | NV   |      166 |
+|     12 | Tandoori Chicken (1 serving) | NV   |      166 |
+
+Dals
+dals
+| ItemNo | Name                | Type | Calories |
++--------+---------------------+------+----------+
+|      1 | Chana Dal (100g)    | V    |       99 |
+|      2 | Moong Dal (100g)    | V    |      211 |
+|      3 | Urad Dal (100g)     | V    |      107 |
+|      4 | Sambhar (100g)      | V    |      150 |
+|      5 | Masoor Dal (100g)   | V    |      165 |
+|      6 | Dal Makhani Low-Fat | V    |      117 |
+|      7 | Arhar Dal (100g)    | V    |       53 |
+|      8 | Dal Tadka (1 bowl)  | V    |      120 |
+
+Snacks
+snacks
+| ItemNo | Name                       | Type | Calories |
++--------+----------------------------+------+----------+
+|      1 | Cutlet (2)                 | V    |      150 |
+|      2 | Cutlet (3)                 | V    |      225 |
+|      3 | Sprout Salad               | V    |       90 |
+|      4 | Samosa (1)                 | V    |      100 |
+|      5 | Samosa (2)                 | V    |      200 |
+|      6 | Milk without sugar (1 cup) | V    |       60 |
+|      7 | Milk with sugar (1 cup)    | V    |       75 |
+
+
